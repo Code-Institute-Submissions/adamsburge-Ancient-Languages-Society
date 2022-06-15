@@ -41,6 +41,9 @@
         - [Ivan Aivazovsky](http://ivanaivazovsky.life)
         - [Sage Culture](https://sageculture.com)
         - [Persepolis Reimagined](https://persepolis.getty.edu)
+    - [Artefactuel](https://artefactuel.ca)
+    - [AHRC Heritage Priority Area](https://heritage-research.org)
+    - [Art & History Museum](https://www.artandhistory.museum)
 - Font Combination:
     - Suggestion by Paul Rand in Lou Levit's article [The Ultimate Collection of Google Font Pairings (Displayed Beautifully with Classic Art)](https://heyreliable.com/ultimate-google-font-pairings/)
 
