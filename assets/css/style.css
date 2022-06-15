@@ -57,3 +57,18 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #131313;
 }
+
+/* Landing Section */
+
+#right-landing-outer {
+    height: calc(100vh - 75px);
+    width: 100%;
+    overflow: hidden;
+}
+
+#right-landing-im {
+    background: url('../images/woman-writing-fresco.jpg') no-repeat center center;
+    height: 900px;
+    width: 70%;
+    float: right;
+}
