@@ -198,7 +198,7 @@ h1, h2 {
 }
 
 #teaching-locations div {
-    color: #e9d5bc;;
+    color: #e9d5bc;
     background-color: rgb(35,22,15, .97);
     width: 25%;
     height: 30vh;
@@ -229,8 +229,88 @@ h1, h2 {
     margin: 10px auto;
 }
 
-#teaching-locations body {
-    
+/* teachers section */
+
+#teachers {
+    height: calc(100vh - 75px);
+}
+
+#teachers h1 {
+    color: rgb(35,22,15, .98);
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-size: 180%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#teachers-profiles {
+    margin: 30px 30px;
+}
+
+#teachers-profiles > div {
+    color: rgb(35,22,15, .98);
+    width: 50%;
+    height: 175px;
+    float: left;
+    box-sizing: border-box;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.teacher-image-circle-container {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    float: left;
+    margin: 0 auto;
+}
+
+.profile-text {
+    margin: 20px;
+
+}
+
+.profile-text h2, p {
+    text-align: left;
+    font-size: .8em;
+}
+
+#john-image-bg {
+    background: url('../images/john.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#nigel-image-bg {
+    background: url('../images/nigel.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#jennifer-image-bg {
+    background: url('../images/jennifer.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#kyle-image-bg {
+    background: url('../images/kyle.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#stephanie-image-bg {
+    background: url('../images/stephanie.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#lindsay-image-bg {
+    background: url('../images/lindsay.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Media Queries */
