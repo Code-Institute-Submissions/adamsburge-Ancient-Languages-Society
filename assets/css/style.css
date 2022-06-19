@@ -34,6 +34,7 @@ h1, h2 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 /* Navigation and Links */
@@ -109,5 +110,23 @@ h1, h2 {
     background: url('../images/woman-writing-fresco.jpg') no-repeat center center;
     height: 900px;
     width: 70%;
+    float: right;
+}
+
+/* about us section */
+
+#about-us {
+    height: 100vh;
+}
+
+#about-left-container {
+    padding-top: 150px;
+    width: 33%;
+    float: left;
+}
+
+#about-right-container {
+    padding-top: 150px;
+    width: 50%;
     float: right;
 }
