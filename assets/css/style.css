@@ -116,12 +116,13 @@ h1, h2 {
 /* about us section */
 
 #about-us {
-    height: 100vh;
+    height: calc(100vh - 75px);
+    background-color: rgb(35,22,15, .98);
 }
 
 #about-left-container {
     padding-top: 150px;
-    width: 33%;
+    width: 50%;
     float: left;
 }
 
@@ -129,4 +130,30 @@ h1, h2 {
     padding-top: 150px;
     width: 50%;
     float: right;
+}
+
+#about-right-container h1, p {
+    padding-bottom: 30px;
+    color: #f3dbbb;
+}
+
+#about-right-container p {
+    padding-right: 150px;
+}
+
+#about-circle-container {
+    width: 575px;
+    height: 575px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #edc795;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#about-circle-bg {
+    background: url('../images/reading-group.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }

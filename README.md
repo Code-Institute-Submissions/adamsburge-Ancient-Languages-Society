@@ -31,6 +31,8 @@
 
 ## Media
 - Image of Pompeian Woman Writing - <a href="https://www.flickr.com/people/41099823@N00">ho visto nina volare</a> from Italy, <a href="https://commons.wikimedia.org/wiki/File:Napoli,_museo_archeologico_(18536648405).jpg">Napoli, museo archeologico (18536648405)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode" rel="license">CC BY-SA 2.0</a>
+- Reading Group photo from About Us section - Photo by <a href="https://unsplash.com/@alexisrbrown?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexis Brown</a> on <a href="https://unsplash.com/s/photos/reading-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ## Design and Aesthetic
 - Inspiration taken from: 
