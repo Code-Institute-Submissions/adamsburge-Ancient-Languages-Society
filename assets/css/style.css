@@ -166,6 +166,73 @@ h1, h2 {
     border-radius: 50%;
 }
 
+/* Teaching Section */
+
+#teaching{
+    height: calc(100vh - 75px);
+    background-color: #e9d5bc;
+}
+
+#teaching h1, h2 {
+    text-align: center;
+}
+
+#teaching h1 {
+    padding-top: 75px;
+    font-size: 180%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#teaching > h2 {
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: .95em;
+    font-style: italic;
+}
+
+#teaching-locations {
+    background-color: #131313;
+    text-align: center;
+    margin: 30px 150px;
+    width: auto;
+}
+
+#teaching-locations div {
+    color: #e9d5bc;;
+    background-color: rgb(35,22,15, .97);
+    width: 25%;
+    height: 30vh;
+    float: left;
+    padding: 75px 10px;
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #e9d5bc;
+    border-radius: 1%;
+    box-sizing: border-box;
+}
+
+#teaching-locations h2 {
+    color: #e9d5bc;
+    font-size: .95em;
+}
+
+#teaching-locations h3 {
+    color: #e9d5bc;
+    font-size: .95em;
+}
+
+#teaching-locations hr {
+    border-top: 1px solid #e9d5bc;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#teaching-locations body {
+    
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
@@ -183,5 +250,7 @@ h1, h2 {
     #about-right-container p {
         font-size: .9em;
     }
+
+
 
 }
