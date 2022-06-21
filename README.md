@@ -41,6 +41,7 @@
   - Photo by <a href="https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clayton</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - Photo by <a href="https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clayton</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Background image of Isaiah Scroll - Unknown author, <a href="https://commons.wikimedia.org/wiki/File:Isaiah_Scroll_2.jpg">Isaiah Scroll 2</a>, scale by Adam Burge, <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rel="license">CC0 1.0</a>
   
   
   
