@@ -408,6 +408,30 @@ h1, h2 {
     margin: 10px auto;
 }
 
+/* Signup Section */
+
+#signup {
+    height: calc(100vh - 75px); /* Set the events section to be the height of the screen by substracting menu height from view height */
+    background-color: #e9d5bc; /* backup color in case the hero image does not load */
+}
+
+#signup h1, h2 {
+    text-align: center;
+}
+
+#signup h1 {
+    padding-top: 75px;
+    font-size: 180%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#signup > h2 {
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: .95em;
+    font-style: italic;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
