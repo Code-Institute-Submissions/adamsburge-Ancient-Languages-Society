@@ -1,4 +1,9 @@
+/* Imports */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
+
+/* Basic Formatting */
 
 * {
     margin: 0;
@@ -34,7 +39,7 @@ h1, h2 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     background-color: rgb(35,22,15, .97);
-    z-index: 1;
+    z-index: 1; /* Move nav bar to front of screen */
     border-bottom: 1px solid #edc795;
 }
 
@@ -47,7 +52,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 75px; /* set the Menu and Logo to be vertically aligned */
     color: #f7ecdd;
 }
 
@@ -103,7 +108,7 @@ h1, h2 {
 }
 
 #right-landing-outer {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 75px); /* Set the landing section to be the height of the screen by substracting menu height from view height */
     width: 100%;
     overflow: hidden;
     padding-top: 75px;
@@ -119,7 +124,7 @@ h1, h2 {
 /* about us section */
 
 #about-us {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 75px); /* Set the about us section to be the height of the screen by substracting menu height from view height */
     background-color: rgb(35,22,15, .98);
 }
 
@@ -149,8 +154,10 @@ h1, h2 {
     padding-right: 75px;
 }
 
+/* About Us Section: Create Image and Image Circle Border */
+
 #about-circle-container {
-    width: 450px;
+    width: 450px; /* Equal height and width together with the border create the circle around the image on the about us page  */
     height: 450px;
     padding: 10px;
     border-style: solid;
@@ -161,7 +168,7 @@ h1, h2 {
 }
 
 #about-circle-bg {
-    background: url('../images/reading-group.jpg') no-repeat center center;
+    background: url('../images/reading-group.jpg') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
     height: 100%;
     border-radius: 50%;
 }
@@ -169,7 +176,7 @@ h1, h2 {
 /* Teaching Section */
 
 #teaching{
-    height: calc(100vh - 75px);
+    height: calc(100vh - 75px); /* Set the teaching section to be the height of the screen by substracting menu height from view height */
     background-color: #e9d5bc;
 }
 
@@ -197,21 +204,25 @@ h1, h2 {
     width: auto;
 }
 
+/* Teaching Section: Create Teaching Location Blocks */
+
 #teaching-locations div {
     color: #e9d5bc;
     background-color: rgb(35,22,15, .97);
-    width: 25%;
+    width: 25%; /* Make 4 columns of blocks/divs */
     height: 30vh;
     float: left;
     padding: 75px 10px;
     text-align: center;
     line-height: 1.5;
-    display: inline-block;
+    display: inline-block; /* allows for sizing height and width */
     vertical-align: middle;
     border: 2px solid #e9d5bc;
     border-radius: 1%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
+
+/* Teaching Section: Basic Styling of Text in Teaching Blocks */
 
 #teaching-locations h2 {
     color: #e9d5bc;
@@ -232,7 +243,7 @@ h1, h2 {
 /* teachers section */
 
 #teachers {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 75px); /* Set the teachers section to be the height of the screen by substracting menu height from view height */
 }
 
 #teachers h1 {
@@ -248,6 +259,8 @@ h1, h2 {
     margin: 30px 30px;
 }
 
+/* teachers section: create profile divs */
+
 #teachers-profiles > div {
     color: rgb(35,22,15, .98);
     width: 50%;
@@ -258,6 +271,8 @@ h1, h2 {
     display: inline-block;
     vertical-align: middle;
 }
+
+/* Teachers Section: Create circle crop around profile images  */
 
 .teacher-image-circle-container {
     width: 100px;
@@ -276,6 +291,8 @@ h1, h2 {
     text-align: left;
     font-size: .8em;
 }
+
+/* Teachers Section: Set Profile Images */
 
 #john-image-bg {
     background: url('../images/john.jpg') no-repeat center center;
@@ -316,7 +333,7 @@ h1, h2 {
 /* Events Section */
 
 #events {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 75px); /* Set the events section to be the height of the screen by substracting menu height from view height */
     background-color: rgb(35,22,15, .98);
 }
 
@@ -339,6 +356,8 @@ h1, h2 {
     font-style: italic;
 }
 
+/* Events Section: Create and Style Event Blocks */
+
 #events-table {
     background-color: #e9d5bc;
     text-align: center;
@@ -349,7 +368,7 @@ h1, h2 {
 #events-table div {
     color: rgb(35,22,15, .98);
     background-color: #e9d5bc;
-    width: 33%;
+    width: 33%; /* set the events table to have 3 columns */
     height: 30vh;
     float: left;
     padding: 75px 10px;
@@ -357,10 +376,12 @@ h1, h2 {
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
-    border: 2px solid rgb(35,22,15, .98);
+    border: 2px solid rgb(35,22,15, .98); /* create space between event blocks */
     border-radius: 1%;
     box-sizing: border-box;
 }
+
+/* Events Section: Basic Styling of Text in Event Blocks */
 
 #events-table h2 {
     color: rgb(35,22,15, .98);
