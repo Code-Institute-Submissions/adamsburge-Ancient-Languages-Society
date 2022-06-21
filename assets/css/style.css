@@ -87,7 +87,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
     
-    background-color: rgba(226,174,118, .7);
+    background-color: rgba(237,199,149, .8);
 
     bottom: 250px;
     left: 30px;
@@ -413,7 +413,7 @@ h1, h2 {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/isaiah-scroll.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/isaiah-scroll.jpg");
     height: calc(100vh - 75px);
     width: 100%;
 
@@ -425,42 +425,34 @@ h1, h2 {
 }
 
 #signup-content {
+    /* align text and content to center */
     text-align: center;
     position: absolute;
-    top: 75px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: ;
-    /* font-size: 150%;
-    font-family: 'Raleway', sans-serif;
-
-    width: 600px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
     
-    background-color: rgba(226,174,118, .7);
-
-    bottom: 250px;
-    left: 30px;
-
-    position: absolute; */
+    /* style background of form */
+    background-color: rgba(237,199,149, .9);
+    position: absolute;
+    width: 800px;
+    height: 600px;
 }
 
 /* Signup Section: Basic h1 and h2 styling for section headings */
 
-#signup h1 {
+#signup-content h1 {
     text-align: center;
-    color: #e9d5bc;
-    padding-top: 75px;
+    color: rgb(35,22,15, .98);
+    padding-top: 50px;
     font-size: 180%;
     font-family: 'Raleway', sans-serif;
 }
 
-#signup > h2 {
+#signup-content > h2 {
     text-align: center;
-    color: #e9d5bc;text-transform: capitalize;
+    color: rgb(35,22,15, .98);
+    text-transform: capitalize;
     padding-top: 20px;
     font-size: .95em;
     font-style: italic;
