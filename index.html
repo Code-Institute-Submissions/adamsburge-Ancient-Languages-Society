@@ -248,6 +248,7 @@
             <h2>Interested in learning an ancient language or joining a reading group?</h2>
             <div id="signup-form">
                 <form action="https://formdump.codeinstitute.net/" method="post">
+                    <h3>Contact Info</h3>
                     <label for="fname">First Name</label>
                     <input type="text" name="first_name" id="fname" required>
 
@@ -258,30 +259,48 @@
                     <input type="email" name="email" id="email" required>
 
                     <h3>I want to:</h3>
-                    <label for="learn">Learn a Language</label>
                     <input type="radio" id="learn" name="signup-reason" value="learn-language" required>
-                    <label for="join-group">Join a Reading Group</label>
+                    <label for="learn">Learn a Language</label>
                     <input type="radio" id="join-group" name="signup-reason" value="join-group" required>
-                    <label for="both">Both</label>
+                    <label for="join-group">Join a Reading Group</label>
                     <input type="radio" id="both" name="signup-reason" value="both" required>
+                    <label for="both">Both</label>
 
                     <h3>Which Languages Are You Interested In?</h3>
-                    <label for="latin">Latin</label>
-                    <input type="checkbox" name="language-interest" id="latin">
-                    <label for="greek">Greek</label>
-                    <input type="checkbox" name="language-interest" id="greek">
-                    <label for="akkadian">Akkadian</label>
-                    <input type="checkbox" name="language-interest" id="akkadian">
-                    <label for="sumerian">Sumerian</label>
-                    <input type="checkbox" name="language-interest" id="sumerian">
-                    <label for="hebrew">Classical Hebrew</label>
-                    <input type="checkbox" name="language-interest" id="hebrew">
-                    <label for="hittite">Hittite</label>
-                    <input type="checkbox" name="language-interest" id="hebrew">
-                    <label for="hieroglyphics">Egyptian Hieroglyphics</label>
-                    <input type="checkbox" name="language-interest" id="hieroglyphics">
-                    <label for="hieratic">Hieratic</label>
-                    <input type="checkbox" name="language-interest" id="hieratic">
+                    <ul id="language-interest-checkbox">
+                        <li>
+                            <input type="checkbox" name="language-interest" id="latin">
+                            <label for="latin">Latin</label>
+                        </li>
+                        <li>    
+                            <input type="checkbox" name="language-interest" id="greek">
+                            <label for="greek">Greek</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="akkadian">
+                            <label for="akkadian">Akkadian</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="sumerian">
+                            <label for="sumerian">Sumerian</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="hebrew">
+                            <label for="hebrew">Classical Hebrew</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="hittite">
+                            <label for="hittite">Hittite</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="hieroglyphics">
+                            <label for="hieroglyphics">Hieroglyphics</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="language-interest" id="hieratic">
+                            <label for="hieratic">Hieratic</label>
+                        </li>
+                    </ul>
 
                     <input type="submit" value="Submit">
                 </form>
