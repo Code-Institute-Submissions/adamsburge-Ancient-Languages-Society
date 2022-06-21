@@ -180,17 +180,15 @@ h1, h2 {
     background-color: #e9d5bc;
 }
 
-#teaching h1, h2 {
-    text-align: center;
-}
-
 #teaching h1 {
+    text-align: center;
     padding-top: 75px;
     font-size: 180%;
     font-family: 'Raleway', sans-serif;
 }
 
 #teaching > h2 {
+    text-align: center;
     text-transform: capitalize;
     padding-top: 20px;
     font-size: .95em;
@@ -337,11 +335,8 @@ h1, h2 {
     background-color: rgb(35,22,15, .98);
 }
 
-#events h1, h2 {
-    text-align: center;
-}
-
 #events h1 {
+    text-align: center;
     color: #e9d5bc;
     padding-top: 75px;
     font-size: 180%;
@@ -349,6 +344,7 @@ h1, h2 {
 }
 
 #events > h2 {
+    text-align: center;
     color: #e9d5bc;
     text-transform: capitalize;
     padding-top: 20px;
@@ -415,18 +411,56 @@ h1, h2 {
     background-color: #e9d5bc; /* backup color in case the hero image does not load */
 }
 
-#signup h1, h2 {
-    text-align: center;
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/isaiah-scroll.jpg");
+    height: calc(100vh - 75px);
+    width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
+#signup-content {
+    text-align: center;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: ;
+    /* font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+
+    width: 600px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    
+    background-color: rgba(226,174,118, .7);
+
+    bottom: 250px;
+    left: 30px;
+
+    position: absolute; */
+}
+
+/* Signup Section: Basic h1 and h2 styling for section headings */
+
 #signup h1 {
+    text-align: center;
+    color: #e9d5bc;
     padding-top: 75px;
     font-size: 180%;
     font-family: 'Raleway', sans-serif;
 }
 
 #signup > h2 {
-    text-transform: capitalize;
+    text-align: center;
+    color: #e9d5bc;text-transform: capitalize;
     padding-top: 20px;
     font-size: .95em;
     font-style: italic;
