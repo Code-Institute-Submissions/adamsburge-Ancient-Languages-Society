@@ -313,6 +313,80 @@ h1, h2 {
     border-radius: 50%;
 }
 
+/* Events Section */
+
+#events {
+    height: calc(100vh - 75px);
+    background-color: rgb(35,22,15, .98);
+}
+
+#events h1, h2 {
+    text-align: center;
+}
+
+#events h1 {
+    color: #e9d5bc;
+    padding-top: 75px;
+    font-size: 180%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#events > h2 {
+    color: #e9d5bc;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: .95em;
+    font-style: italic;
+}
+
+#events-table {
+    background-color: #e9d5bc;
+    text-align: center;
+    margin: 30px 150px;
+    width: auto;
+}
+
+#events-table div {
+    color: rgb(35,22,15, .98);
+    background-color: #e9d5bc;
+    width: 33%;
+    height: 30vh;
+    float: left;
+    padding: 75px 10px;
+    text-align: center;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid rgb(35,22,15, .98);
+    border-radius: 1%;
+    box-sizing: border-box;
+}
+
+#events-table h2 {
+    color: rgb(35,22,15, .98);
+    font-size: .95em;
+    font-weight: bold;
+}
+
+#events-table h3 {
+    color: rgb(35,22,15, .98);
+    font-size: .95em;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#events-table h4 {
+    color: rgb(35,22,15, .98);
+    font-size: .93em;
+    font-style: italic;
+}
+
+#events-table hr {
+    border-top: 1px solid rgb(35,22,15, .98);
+    width: 80%;
+    margin: 10px auto;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
