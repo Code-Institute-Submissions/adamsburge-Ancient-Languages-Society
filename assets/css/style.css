@@ -1,6 +1,3 @@
-/* Imports */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
 
 /* Basic Formatting */
@@ -465,6 +462,8 @@ h1, h2 {
     margin: 30px 50px 0 50px;
 }
 
+/* Signup Section: Label Styling */
+
 #signup-form label {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -486,11 +485,13 @@ h1, h2 {
     margin: 0 5px;
 }
 
-#language-preference-list {
+#signup-reason-list {
     margin-bottom: 80px; /* adjusts bottom margin of language preference section to account for float left of the list */
 }
 
-#language-preference-list li {
+/* Signup Section: Signup Reason Question formatting */
+
+#signup-reason-list li {
     list-style-type: none;
     display: inline-block;
     float: left;
@@ -504,6 +505,30 @@ h1, h2 {
     float: left;
     display: inline-block;
     width: 25%; /* Make 4 columns */
+}
+
+/* Signup Section: Form - Submit Button Styling */
+
+#submit {
+    display:block;
+    width: 100px;
+    height: 30px; 
+    text-align:center;
+    margin: 100px auto 0 auto;
+
+    color: #e9d5bc;
+    font-size: .97em;
+    font-family: 'Raleway', sans-serif;
+
+    background-color: rgb(35,22,15, .97);
+}
+
+#submit:hover {
+    color: rgb(35,22,15, .97);
+    background-color: #e9d5bc;
+    border-color: rgb(35,22,15, .97);
+    border-width: 1px;
+    border-style: solid;
 }
 
 /* Media Queries */

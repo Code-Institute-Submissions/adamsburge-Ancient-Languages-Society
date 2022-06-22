@@ -65,6 +65,7 @@
 ## Code
 - [W3 Schools](https://www.w3schools.com) for guidance on various bits of code throughout 
 - Several lines of code throughout were take and/or adapted from code in [my Love Running project](https://github.com/adamsburge/love-running-project) with [Code Institute](https://codeinstitute.net) which I coded along side videos from the course.
+- Help with centering submit button on form from [Frits on Stack Overflow](https://stackoverflow.com/users/6049581/frits). Find the thread [here](https://stackoverflow.com/questions/45430798/how-do-you-horizontal-align-submit-button).
 
 ## Individuals
 - My Mentor, Adegbenga Adeye - comments, feedback, advice
