@@ -465,9 +465,36 @@ h1, h2 {
     margin: 30px 50px 0 50px;
 }
 
+#signup-form label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(35,22,15, .98);
+    font-size: .93em;
+    font-style: italic;
+}
+
 #signup-form h3 {
+    color: rgb(35,22,15, .98);
+    font-size: .97em;
+    font-weight: bold;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#contact-info input {
+    margin: 0 5px;
+}
+
+#language-preference-list {
+    margin-bottom: 80px; /* adjusts bottom margin of language preference section to account for float left of the list */
+}
+
+#language-preference-list li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    width: 33%; /* Make 3 columns */
 }
 
 /* Signup Section: Form - Language Interest Styling */

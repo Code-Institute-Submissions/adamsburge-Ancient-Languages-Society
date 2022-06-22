@@ -248,23 +248,32 @@
             <h2>Interested in learning an ancient language or joining a reading group?</h2>
             <div id="signup-form">
                 <form action="https://formdump.codeinstitute.net/" method="post">
+                    <div id="contact-info">
                     <h3>Contact Info</h3>
-                    <label for="fname">First Name</label>
-                    <input type="text" name="first_name" id="fname" required>
+                        <label for="fname">First Name</label>
+                        <input type="text" name="first_name" id="fname" required>
+                        
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="last_name" id="lname" required>
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" name="last_name" id="lname" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
                     <h3>I want to:</h3>
-                    <input type="radio" id="learn" name="signup-reason" value="learn-language" required>
-                    <label for="learn">Learn a Language</label>
-                    <input type="radio" id="join-group" name="signup-reason" value="join-group" required>
-                    <label for="join-group">Join a Reading Group</label>
-                    <input type="radio" id="both" name="signup-reason" value="both" required>
-                    <label for="both">Both</label>
+                    <ul id="language-preference-list">
+                        <li>
+                            <input type="radio" id="learn" name="signup-reason" value="learn-language" required>
+                            <label for="learn">Learn a Language</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="join-group" name="signup-reason" value="join-group" required>
+                            <label for="join-group">Join a Reading Group</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="both" name="signup-reason" value="both" required>
+                            <label for="both">Both</label>
+                        </li>
+                    </ul>
 
                     <h3>Which Languages Are You Interested In?</h3>
                     <ul id="language-interest-checkbox">
