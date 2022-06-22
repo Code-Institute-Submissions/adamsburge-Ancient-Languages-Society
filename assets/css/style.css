@@ -516,17 +516,18 @@ h1, h2 {
     text-align:center;
     margin: 100px auto 0 auto;
 
-    color: #e9d5bc;
-    font-size: .97em;
+    color: rgb(35,22,15, .97);
+    font-size: 1em;
     font-family: 'Raleway', sans-serif;
 
-    background-color: rgb(35,22,15, .97);
+    background-color: transparent;
+    border-bottom: 1px solid rgb(35,22,15, .97);
 }
 
 #submit:hover {
-    color: rgb(35,22,15, .97);
-    background-color: #e9d5bc;
-    border-color: rgb(35,22,15, .97);
+    color: #e9d5bc;
+    background-color: rgb(35,22,15, .97);
+    border-color: ;
     border-width: 1px;
     border-style: solid;
 }
