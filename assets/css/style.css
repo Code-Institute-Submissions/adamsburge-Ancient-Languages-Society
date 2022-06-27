@@ -548,7 +548,7 @@ footer h3 {
 
 #socials {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 #socials li {
@@ -559,7 +559,7 @@ footer h3 {
 
 #socials i {
     color: #e9d5bc;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 /* Media Queries */
