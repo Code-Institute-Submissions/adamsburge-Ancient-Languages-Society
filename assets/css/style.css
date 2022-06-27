@@ -532,6 +532,29 @@ h1, h2 {
     border-style: solid;
 }
 
+
+/* Footer */
+
+footer {
+    background-color: rgb(35,22,15, .97);
+    color: #e9d5bc;
+    height: 75px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+#socials {
+    text-align: center;
+}
+
+#socials li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
