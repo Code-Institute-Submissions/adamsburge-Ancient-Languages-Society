@@ -543,7 +543,7 @@ footer {
 
 footer h3 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 #socials {
@@ -555,6 +555,11 @@ footer h3 {
     display: inline;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#socials i {
+    color: #e9d5bc;
+    font-size: 120%;
 }
 
 /* Media Queries */
