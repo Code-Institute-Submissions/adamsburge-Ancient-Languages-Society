@@ -679,6 +679,14 @@ footer h3 {
   
   }
 
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS for Smart Phones in Portrait */
+
+    
+    
+    
+  }
 
 /* @media screen and (max-width: 1200px) {
     #about-circle-container {
