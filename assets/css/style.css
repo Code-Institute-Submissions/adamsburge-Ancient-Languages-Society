@@ -404,7 +404,7 @@ h1, h2 {
 /* Signup Section */
 
 #signup {
-    height: calc(100vh - 75px); /* Set the events section to be the height of the screen by substracting menu height from view height */
+    height: calc(100vh - 75px - 75px); /* Set the events section to be the height of the screen by substracting menu and footer height from view height */
     background-color: #e9d5bc; /* backup color in case the hero image does not load */
 }
 
@@ -543,10 +543,12 @@ footer {
 
 footer h3 {
     text-align: center;
+    padding-top: 15px;
 }
 
 #socials {
     text-align: center;
+    padding-top: 10px;
 }
 
 #socials li {
