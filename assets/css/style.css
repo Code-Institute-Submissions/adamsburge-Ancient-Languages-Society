@@ -564,7 +564,69 @@ footer h3 {
 
 /* Media Queries */
 
-@media screen and (max-width: 1200px) {
+/* CSS for Tablets in Portrait */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* Menu Section */
+
+    #menu {
+        font-size: 85%;
+    }
+    
+    #menu li {
+        margin-right: 20px;
+    }
+    
+    /* Landing Section */
+
+    #landing {
+        background: url('../images/woman-writing-fresco-2.jpg') no-repeat center center;
+        height: 100vh;
+    }
+
+    
+    #right-landing-im {
+        background: transparent;
+        height: 900px;
+        width: 70%;
+        float: right;
+    }
+
+    /* About Us Section */
+    #about-left-container {
+        text-align: center;
+        padding-top: 25px;
+        width: unset;
+        float: unset;
+    }
+    
+    #about-right-container {
+        padding-top: 25px;
+        width: unset;
+        float: unset;
+    }
+
+    #about-right-container p {
+        text-align: justify;
+        padding-left: 75px;
+        
+    }
+
+    #about-circle-container {
+        width: 350px; /* Equal height and width together with the border create the circle around the image on the about us page  */
+        height: 350px;
+        padding: 10px;
+    }
+
+    #about-circle-bg {
+        background: url('../images/reading-group-2.jpg') no-repeat center center; /* inserts the image as the background of a div, rather than placing it in the html, in order to crop to a circle */
+        height: 100%;
+    }
+    
+  }
+
+
+/* @media screen and (max-width: 1200px) {
     #about-circle-container {
         width: 400px;
         height: 400px;
@@ -582,4 +644,4 @@ footer h3 {
 
 
 
-}
+} */
