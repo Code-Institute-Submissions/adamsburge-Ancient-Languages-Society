@@ -695,7 +695,7 @@ footer h3 {
   
   }
 
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media (max-width: 767px) {
   
     /* CSS for Smart Phones in Portrait */
 
@@ -738,17 +738,33 @@ footer h3 {
     #landing {
         background: url('../images/woman-writing-fresco-2.jpg') no-repeat center center;
         height: 100vh;
+        width: 100vw;
     }
 
+    #landing-cover-text {
+        width: 300px;
+        height: 150px;
+
+        bottom: 150px;
+        left: 30px;
+    
+        font-size: 1.02em;
+        padding-right: 15px;
+    }
+    
+    #right-landing-outer {
+        display: none;
+    }
     
     #right-landing-im {
-        background: transparent;
-        height: 900px;
-        width: 70%;
-        float: right;
+        display: none;
     }
 
     /* About Us Section */
+    #about-us {
+        height: unset;
+    }
+
     #about-left-container {
         text-align: center;
         padding-top: 25px;
@@ -780,10 +796,18 @@ footer h3 {
     }
 
     /* Teaching Section */
+
+    #teaching{
+        height: 800px;
+    }
+
+    #teaching-locations {
+        margin: 30px 25px;
+    }
     #teaching-locations div {
         width: 50%; /* Make 2 columns of blocks/divs */ 
-        height: 17vh;
-        padding: 35px 3px 25px 3px;
+        height: 140px;
+        padding: 25px 5px;
     }
 
     /* Teachers Section */
@@ -799,29 +823,47 @@ footer h3 {
         float: left;
         box-sizing: border-box;
         line-height: 1.5;
-        display: inline-block;
+        display: block;
         vertical-align: middle;
+        font-size: .85em;
     }
     
     /* Events Section */
+    #events {
+        height: 900px;
+    }
+
+    #events-table {
+        background-color: #e9d5bc;
+        text-align: center;
+        margin: 30px 15px;
+        width: auto;
+        font-size: .85em;
+    }
+
     #events-table div {
         width: 50%; /* set the events table to have 2 columns */
-        height: 22vh;
+        height: 215px;
         padding: 30px 3px 0 3px;
         font-size: .95em;
     }
 
     /* Signup Section */
 
+    #signup {
+        height: 900px;
+    }
+
     #signup-content {
-        width: 600px;
-        height: 600px;
+        width: 350px;
+        height: 700px;
         font-size: .95em;
     }
-    
+
     #signup-form h3 {
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     #contact-info label {
@@ -829,10 +871,21 @@ footer h3 {
     }
 
     #contact-info input {
-        width: 500px;
+        width: 250px;
         margin-bottom: 5px;
     }
     
+    #signup-reason-list li {
+        width: 100%; /* Make 3 rows (or column width = 100% */
+    }
+
+    #language-interest-checkbox li {
+        width: 50%; /* Make 2 columns */
+    }
+
+    #submit {
+        margin-top: 125px;
+    }
   }
 
 /* @media screen and (max-width: 1200px) {
