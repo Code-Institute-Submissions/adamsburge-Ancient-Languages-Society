@@ -735,23 +735,29 @@ footer h3 {
     
     /* Landing Section */
 
-    #landing {
+    #landing {       
         background: url('../images/woman-writing-fresco-small.jpg') no-repeat center center;
-        height: 100vh;
+        height: calc(100vh - 75px);
         width: 100vw;
+        top: 75px;
+        position: relative;
     }
 
     #landing-cover-text {
-        width: 300px;
+        width: 250px;
         height: 150px;
 
-        bottom: 150px;
-        left: 30px;
+        bottom: 50px;
+        left: 10px;
     
-        font-size: 1.02em;
+        font-size: .95em;
         padding-right: 15px;
     }
     
+    #landing-cover-text h1 {
+        padding-bottom: 15px;
+    }
+
     #right-landing-outer {
         display: none;
     }
@@ -763,6 +769,10 @@ footer h3 {
     /* About Us Section */
     #about-us {
         height: unset;
+    }
+
+    #about-us h1 {
+        padding-top: 150px;
     }
 
     #about-left-container {
@@ -862,9 +872,13 @@ footer h3 {
     }
 
     #signup-content {
-        width: 350px;
+        width: 300px;
         height: 700px;
         font-size: .95em;
+    }
+
+    #signup-form {
+        margin: 30px 20px 0 20px;
     }
 
     #signup-form h3 {
@@ -878,7 +892,7 @@ footer h3 {
     }
 
     #contact-info input {
-        width: 250px;
+        width: 200px;
         margin-bottom: 5px;
     }
     
