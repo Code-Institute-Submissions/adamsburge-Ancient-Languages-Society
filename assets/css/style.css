@@ -819,6 +819,10 @@ footer h3 {
         height: 1225px; /* Set the teachers section to be the height of the screen by substracting menu height from view height */
     }
 
+    #teachers-profiles {
+        margin: 30px 15px;
+    }
+
     #teachers-profiles > div {
         color: rgb(35,22,15, .98);
         width: 100%;
