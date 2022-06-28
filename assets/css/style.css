@@ -867,25 +867,42 @@ footer h3 {
     /* Teachers Section */
 
     #teachers {
-        height: 1225px; /* Set the teachers section to be the height of the screen by substracting menu height from view height */
+        height: 1500px; /* Set the teachers section to be the height of the screen by substracting menu height from view height */
     }
 
     #teachers-profiles {
         margin: 30px 15px;
     }
-
+    
     #teachers-profiles > div {
         color: rgb(35,22,15, .98);
         width: 100%;
         height: 175px;
-        float: left;
+        float: unset;
         box-sizing: border-box;
         line-height: 1.5;
-        display: block;
-        vertical-align: middle;
+        display: unset;
         font-size: .85em;
     }
     
+    .teacher-image-circle-container {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        float: unset;
+        margin: 0 auto;
+    }
+
+    .profile-text {
+        margin: 10px;
+    
+    }
+
+    .profile-text h2, p {
+        text-align: center;
+        font-size: .8em;
+    }
+
     /* Events Section */
     #events {
         height: 900px;
