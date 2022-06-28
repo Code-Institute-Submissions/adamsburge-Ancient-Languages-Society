@@ -548,7 +548,7 @@ input[type=text], input[type=email] {
 #submit:hover {
     color: #e9d5bc;
     background-color: rgb(35,22,15, .97);
-    border-color: ;
+    border-color: rgb(35,22,15, .97);
     border-width: 1px;
     border-style: solid;
 }
