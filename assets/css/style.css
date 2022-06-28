@@ -704,13 +704,10 @@ footer h3 {
     nav {
         display: none;
     }
-
-    #menu {
-        font-size: 85%;
-    }
     
     #menu {
         transform: rotate(180deg);
+        font-size: 85%;
     }
 
     #menu li {
@@ -721,13 +718,57 @@ footer h3 {
     }
 
     .nav-toggle-label {
-        display: unset;
+        /* display: unset; */
         color: #e9d5bc;
-        float: right;
         line-height: 75px;
-        margin-right: 30px;
+        /* margin-right: 30px; */
         font-size: 180%;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 1em;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
+    
+    nav {
+        position: absolute;
+        text-align: left;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: scale(1, 0);
+        transform-origin: top;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      nav li {
+        margin-bottom: .15em;
+        margin-left: 1em;
+        font-size: 1.3em;
+      }
+      
+      nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      
+      .nav-toggle:checked ~ nav {
+        transform: scale(1,1);
+        background-color: rgb(35,22,15, .97);
+        height: 100vh;
+      }
+      
+      .nav-toggle:checked ~ nav a {
+
+      }
 
     .nav-toggle:checked ~ nav {
         display: block;
