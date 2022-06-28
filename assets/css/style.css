@@ -559,12 +559,7 @@ input[type=text], input[type=email] {
 footer {
     background-color: rgb(35,22,15, .97);
     color: #e9d5bc;
-    height: 75px;
-}
-
-footer h3 {
-    text-align: center;
-    padding-top: 10px;
+    line-height: 75px;
 }
 
 #socials {
@@ -586,7 +581,7 @@ footer h3 {
 /* Media Queries */
 
 /* CSS for Tablets in Portrait */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     
     /* Menu Section */
 
@@ -625,12 +620,13 @@ footer h3 {
     #about-left-container {
         text-align: center;
         padding-top: 25px;
+        margin-bottom: 20px;
         width: unset;
         float: unset;
     }
     
     #about-right-container {
-        padding-top: 25px;
+        padding-top: 40px;
         width: unset;
         float: unset;
     }
@@ -653,6 +649,11 @@ footer h3 {
     }
 
     /* Teaching Section */
+    #teaching-locations {
+        margin: 30px 75px;
+
+    }
+
     #teaching-locations div {
         width: 50%; /* Make 2 columns of blocks/divs */ 
         height: 17vh;
@@ -677,6 +678,10 @@ footer h3 {
     }
     
     /* Events Section */
+    #events-table {
+        margin: 30px 75px;
+    }
+
     #events-table div {
         width: 50%; /* set the events table to have 2 columns */
         height: 22vh;
@@ -688,7 +693,7 @@ footer h3 {
 
     #signup-content {
         width: 600px;
-        height: 600px;
+        height: 650px;
         font-size: .95em;
     }
     
