@@ -1,6 +1,6 @@
 # The Ancient Languages Society
 
-Welcome to the Ancient Language Society. This is a website created the HTML and CSS Essential project with Code Institute. The Ancient Languages Society and all of the mentioned individuals and establishments on the website are fictional and were created for the purpose of the Code Institute Project.
+Welcome to the Ancient Language Society. This is a website created for the HTML and CSS Essentials Portfolio Project with [Code Institute](https://codeinstitute.net). The Ancient Languages Society and all of the mentioned individuals and establishments on the website are fictional and were created for the purpose of the Code Institute Project.
 
 You can view the website [here](https://adamsburge.github.io/Ancient-Languages-Society/).
 
@@ -11,11 +11,52 @@ The website is mobile responsive, as can be seen in the image below.
 
 # Features
 
-- Include screenshots of all main sections
+The website is a single-page site with a menu that takes the user to different sections of the page. There are six total sections: Home (or landing section), About Us, Teaching, Teachers, Events, and a Signup Form. Each section is designed to take up the entire view height of the screen on desktops. This feature is removed on mobile formats.
+
+## Home Section
+![Screenshot of the Home/Landing Section](assets/images/home-landing.png)
+
+- The home/landing section provides a simple title page layout with the name of the society, the locations it operates in, and an image of a fresco from Pompeii.
+<br><br>
+
+## About Us Section
+![Screenshot of the About Us Section](assets/images/about-us.png)
+
+- The About Us section provides a brief history of the society and how it began and sets it beside (or under on mobile) an old sketch of a group of people reading together (a fitting image since the society hosts reading groups).
+<br><br>
+
+## Teaching Section
+![Screenshot of the Teaching Section](assets/images/teaching.png)
+
+- The teaching section provides the user with information regarding which languages the society is able to teach and which cities they are offered in. 
+<br><br>
+
+## Teachers Section
+![Screenshot of the Teachers Section](assets/images/teachers.png)
+
+- The teaching section provides profile pictures, names, and short biographies of the different teachers associated with the society.
+<br><br>
+
+## Events Section
+![Screenshot of the Events Section](assets/images/events.png)
+
+- The events section provides the reader with information regarding weekly events the society puts on as well as where and when the events occur.
+<br><br>
+
+## Signup Section
+![Screenshot of the Signup Section](assets/images/signup.png)
+
+- The signup section provides the form for the user to fill out if they wish to get involved either in a language class or a reading group.
+<br><br>
 
 # Testing
 
-- include information about how I've tested the site
+- HTML - The HTML was tested with [the W3C HTML validator service](https://validator.w3.org)
+    - The HTML did not have any errors, but the service did mention a few warnings. 
+        - Warning 1: to only use H1 headings as top-level headings. Yet, as this is a single page site, the sections act as pages. Thus each section has a H1 Heading, but all other heading are H2 and below.
+        - Warning 2: lists an empty heading. However, this heading is not empty, but contains a submit input and the heading is used to style the button.
+
+- CSS - The CSS was tested with [the W3C CSS validator service](https://jigsaw.w3.org/css-validator/) and no errors were found.
 
 ## Bugs
 
