@@ -51,6 +51,14 @@ The website is a single-page site with a menu that takes the user to different s
 
 # Testing
 
+
+
+## Bugs
+
+- One unsolved bug is that the mobile hamburger drop-down menu has to be manually closed. This, however, is due to the fact that I decided not to use Javascript as this project is focused on HTML and CSS. I intentionally tried to find a way to create the mobile menu without using Javascript and this is the one bug. This feature could be fixed in the future if I decide to incorporate Javascript.
+
+## Validator Testing
+
 - HTML - The HTML was tested with [the W3C HTML validator service](https://validator.w3.org)
     - The HTML did not have any errors, but the service did mention a few warnings. 
         - Warning 1: to only use H1 headings as top-level headings. Yet, as this is a single page site, the sections act as pages. Thus each section has a H1 Heading, but all other heading are H2 and below.
@@ -58,13 +66,7 @@ The website is a single-page site with a menu that takes the user to different s
 
 - CSS - The CSS was tested with [the W3C CSS validator service](https://jigsaw.w3.org/css-validator/) and no errors were found.
 
-## Bugs
-
-- include information about bugs I've found, how I've fixed them and any unsolved bugs
-
-## Validator Testing
-
-- Include results from w3c Html validator, w3c css validator, and google dev tools's lighthouse accessibility score
+- Accesibility (Lighthouse score):
 
 # Deployment
 
