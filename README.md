@@ -1,6 +1,8 @@
 # The Ancient Languages Society
 
-- Type intro here
+Welcome to the Ancient Language Society. This is a website created the HTML and CSS Essential project with Code Institute. The Ancient Languages Society and all of the mentioned individuals and establishments on the website are fictional and were created for the purpose of the Code Institute Project.
+
+You can view the website [here](https://adamsburge.github.io/Ancient-Languages-Society/).
 
 - Add Am I Responsive Design screenshot here
 
@@ -61,11 +63,16 @@
     - [Art & History Museum](https://www.artandhistory.museum)
 - Font Combination:
     - Suggestion by Paul Rand in Lou Levit's article [The Ultimate Collection of Google Font Pairings (Displayed Beautifully with Classic Art)](https://heyreliable.com/ultimate-google-font-pairings/)
+- For icons: [Fontawesome](https://fontawesome.com)
 
 ## Code
 - [W3 Schools](https://www.w3schools.com) for guidance on various bits of code throughout 
 - Several lines of code throughout were take and/or adapted from code in [my Love Running project](https://github.com/adamsburge/love-running-project) with [Code Institute](https://codeinstitute.net) which I coded along side videos from the course.
 - Help with centering submit button on form from [Frits on Stack Overflow](https://stackoverflow.com/users/6049581/frits). Find the thread [here](https://stackoverflow.com/questions/45430798/how-do-you-horizontal-align-submit-button).
+- Help creating the HTML and CSS only mobile menu hamburger drop-down: [Kevin Powell](https://www.youtube.com/kepowob) from [this video](https://www.youtube.com/watch?v=8QKOaTYvYUA) and [this codepen.io page](https://codepen.io/kevinpowell/pen/jxppmr)
+- For code to display mobile menu in reverse (or correct) order: [Josh Crozier](https://stackoverflow.com/users/2680216/josh-crozier)'s code on [this Stack Overflow page](https://stackoverflow.com/questions/25695000/how-to-display-a-reverse-ordered-list-in-html)
+- For media query standard dimensions: [Gokulkrishh](https://gist.github.com/gokulkrishh)'s page on [CSS Media Queries for Desktop, Tablet, Mobile](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488) was invaluable.
+- For getting the signup form radio and checkbox buttons in columns, see [Danielle Peters](https://community.hubspot.com/t5/user/viewprofilepage/user-id/4505)' solution on [this page](https://community.hubspot.com/t5/Lead-Capture-Tools/Forms-multiple-columns-for-check-boxes/m-p/9531) and [this jsfiddle page](http://jsfiddle.net/pynhA/2/)
 
 ## Individuals
 - My Mentor, Adegbenga Adeye - comments, feedback, advice
