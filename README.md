@@ -4,7 +4,9 @@ Welcome to the Ancient Language Society. This is a website created the HTML and 
 
 You can view the website [here](https://adamsburge.github.io/Ancient-Languages-Society/).
 
-- Add Am I Responsive Design screenshot here
+The website is mobile responsive, as can be seen in the image below.
+
+![Am I Responsive Screenshot](assets/images/am-i-responsive-image.png)
 
 
 # Features
