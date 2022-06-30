@@ -50,7 +50,8 @@ The website is a single-page site with a menu that takes the user to different s
 <br><br>
 
 # Testing
-
+- I have manually tested the website for desktop on Google Chrome, Microsoft Edge, Firefox, Safari, and Vivaldi. 
+- I have manually tested the website for mobile responsiveness on an iPhone 7 and an iPhone 8 as well as using both devtools and [Screenfly](https://bluetree.ai/screenfly/) to test the website on various apple and android mobile and tablet devices from the iPhone 5 onward.
 
 
 ## Bugs
@@ -66,11 +67,19 @@ The website is a single-page site with a menu that takes the user to different s
 
 - CSS - The CSS was tested with [the W3C CSS validator service](https://jigsaw.w3.org/css-validator/) and no errors were found.
 
-- Accesibility (Lighthouse score):
+- Accessibility: I have tested the webstie, fonts, and colors for accessibility with Lighthouse in devtools. The accessibility score received is 100.
+
+![devtools lighthouse report](assets/images/devtools-lighthouse-report.png)
 
 # Deployment
 
-- detail how the site is deployed (i.e., Github pages)
+- I have deployed the website through GitHub Pages. To do this, I:
+    - navigated to the GitHub repository and selected settings
+    - on the lefthand side, I selected the 'Pages' option from the menu navigation.
+    - Under 'Source', I selected the main branch. 
+    - Then the live website link was provided.
+
+    The website can be accessed [here](https://adamsburge.github.io/Ancient-Languages-Society/).
 
 # Credits
 
