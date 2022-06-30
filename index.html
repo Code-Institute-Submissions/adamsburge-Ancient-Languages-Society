@@ -15,9 +15,9 @@
             <a href="index.html">
                 <h1 id="logo">ALS</h1>
             </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle"> <!-- checkbox used to toggle menu navigation on and off in mobile phone view -->
             <nav>
-                <ul id="menu">
+                <ul id="menu"> <!-- creates the menu navigation -->
                     <li>
                         <a href="#signup">Sign Up</a>
                     </li>
@@ -38,38 +38,40 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- replaces checkbox toggle from above with a hamburger mobile menu toggle icon -->
             <label for="nav-toggle" class="nav-toggle-label">
                 <span><i class="fa-solid fa-bars"></i></span>
-              </label>
+              </label> 
         </div>    
     </header>
-    <section id="landing">
-        <div id="landing-cover-text">
+    <section id="landing"> <!-- creates the landing section of the website -->
+        <div id="landing-cover-text"> <!-- Creates the Title section of the landing page -->
             <h1>The Ancient Languages Society</h1>
             <h2>London - Edinburgh - Dublin</h2>
         </div>
-        <div id="right-landing-outer">
-            <div id="right-landing-im">
+        <div id="right-landing-outer"> <!-- separates a section on landing page for the pompeii fresco image -->
+            <div id="right-landing-im"> <!-- creates div which has a background image of the pompeii fresco image  -->
             </div>
         </div>
     </section>
-    <section id="about-us">
+    <section id="about-us"> <!-- Creates the About Us section -->
         <h1>About Us</h1>
-        <div id="about-left-container">
+        <div id="about-left-container"> <!-- Creates circle image of three people reading -->
             <div id="about-circle-container">
                 <div id="about-circle-bg"></div>
             </div>
         </div>
-        <div id="about-right-container">
+        <div id="about-right-container"> <!-- Separates the about us description from the about us image -->
             <p>In 1998, John Faroe, Nigel Horrocks and Jennifer Wasche started an ancient languages reading and conversation group to help them better understand the languages they were studying in university. The reading group aided their understanding of the languages so much that they decided to share their method with others. And thus the Ancient Languages Society was born.</p>
             <p>Now, spread over three cities in the UK and Ireland, we offer instruction in several ancient languages, in small class sizes of no more than 8 students. We also offer weekly in-person meet-ups where individuals can practise various languages through active conversation and group readings of relevant texts.</p>
             <p>All of our teachers are experts and have obtained PhD’s in their respective fields. As the aim of ALS is to preserve the knowledge of ancient languages, our classes are free of charge to any student who wishes to study with us. This is made possible by the generous support of the Dorothy Rainer foundation.</p>
         </div>
     </section>
-    <section id="teaching">
+    <section id="teaching"> <!-- Creates the Teaching section -->
         <h1>Teaching</h1>
         <h2>We offer both in-person and remote teaching for several ancient languages</h2>
-        <div id="teaching-locations">
+        <div id="teaching-locations"> <!-- Uses divs to create a table-like format for organising information about language teaching options -->
             <div>
                 <h2>Latin</h2>
                 <hr>
@@ -112,9 +114,9 @@
             </div>
         </div>
     </section>
-    <section id="teachers">
+    <section id="teachers"> <!-- Creates Teachers section -->
         <h1>Teachers</h1>
-        <div id="teachers-profiles">
+        <div id="teachers-profiles"> <!-- uses divs to situate bios in a table-like appearance and place profile image next to (or above for mobile) the bios  -->
             <div class="teachers-profile-container">
                 <div class="teacher-image-circle-container">
                     <div id="john-image-bg"></div>
@@ -195,10 +197,10 @@
             </div>
         </div>
     </section>
-    <section id="events">
+    <section id="events"> <!-- Creates the Events section -->
         <h1>Events</h1>
         <h2>Check out our Weekly Events. We would love to see you there!</h2>
-        <div id="events-table">
+        <div id="events-table"> <!-- uses divs to create a table-like format to display information about weekly events -->
             <div>
                 <h2>Latin Reading Group</h2>
                 <hr>
@@ -247,14 +249,14 @@
             </div>
         </div>
     </section>
-    <section id="signup" class="hero-image">
-        <div id="signup-content">    
+    <section id="signup" class="hero-image"> <!-- Creates Signup Section -->
+        <div id="signup-content"> <!-- Creates signup form in middle of section to separate the form from the background image -->   
             <h1>Sign Up</h1>
             <h2>Interested in learning an ancient language or joining a reading group?</h2>
             <div id="signup-form">
                 <form action="https://formdump.codeinstitute.net/" method="post">
                     <div id="contact-info">
-                        <h3>Contact Info</h3>
+                        <h3>Contact Info</h3> <!-- Requests basic contact info -->
                         <label for="fname">First Name</label>
                         <input type="text" name="first_name" id="fname" required>
                         
@@ -264,7 +266,7 @@
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" required>
                     </div>
-                    <h3 id="signup-reason-header">I want to:</h3>
+                    <h3 id="signup-reason-header">I want to:</h3> <!-- Creates radio buttons for question about reason for signup -->
                     <ul id="signup-reason-list">
                         <li>
                             <input type="radio" id="learn" name="signup-reason" value="learn-language" required>
@@ -280,7 +282,7 @@
                         </li>
                     </ul>
 
-                    <h3 id="language-interest-header">Which Languages Are You Interested In?</h3>
+                    <h3 id="language-interest-header">Which Languages Are You Interested In?</h3> <!-- checkbox question about language interest -->
                     <ul id="language-interest-checkbox">
                         <li>
                             <input type="checkbox" name="language-interest" id="latin" value="latin">
@@ -316,12 +318,13 @@
                         </li>
                     </ul>
 
+                    <!-- submit button -->
                     <input type="submit" value="Submit" id="submit">
                 </form>
             </div>
         </div>
     </section>
-    <footer>
+    <footer> <!-- Creates a footer with social media links -->
         <ul id="socials">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a>
