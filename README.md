@@ -93,7 +93,6 @@ The website is a single-page site with a menu that takes the user to different s
 - HTML - The HTML was tested with [the W3C HTML validator service](https://validator.w3.org)
     - The HTML did not have any errors, but the service did mention a few warnings. 
         - Warning 1: to only use H1 headings as top-level headings. Yet, as this is a single page site, the sections act as pages. Thus each section has a H1 Heading, but all other heading are H2 and below.
-        - Warning 2: lists an empty heading. However, this heading is not empty, but contains a submit input and the heading is used to style the button.
 
 - CSS - The CSS was tested with [the W3C CSS validator service](https://jigsaw.w3.org/css-validator/) and no errors were found.
 
@@ -118,16 +117,17 @@ The website is a single-page site with a menu that takes the user to different s
 
 
 ## Media
-- Image of Pompeian Woman Writing - <a href="https://www.flickr.com/people/41099823@N00">ho visto nina volare</a> from Italy, <a href="https://commons.wikimedia.org/wiki/File:Napoli,_museo_archeologico_(18536648405).jpg">Napoli, museo archeologico (18536648405)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode" rel="license">CC BY-SA 2.0</a>
-- Reading Group photo from About Us section - Photo by <a href="https://unsplash.com/@alexisrbrown?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexis Brown</a> on <a href="https://unsplash.com/s/photos/reading-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Image of Pompeian Woman Writing - [ho visto nina volare](https://www.flickr.com/people/41099823@N00) from Italy, [Napoli, museo archeologico (18536648405)](https://commons.wikimedia.org/wiki/File:Napoli,_museo_archeologico_(18536648405).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/legalcode)
+- Reading Group photo from About Us section - Photo by [Alexis Brown](https://unsplash.com/@alexisrbrown?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/reading-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 - Teacher Profile Images
-    - Photo by <a href="https://unsplash.com/@willsouzabr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Willian Souza</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - Photo by <a href="https://unsplash.com/@fotosushi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Foto Sushi</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - Photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - Photo by <a href="https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clayton</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - Photo by <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - Photo by <a href="https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clayton</a> on <a href="https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- Background image of Isaiah Scroll - Unknown author, <a href="https://commons.wikimedia.org/wiki/File:Isaiah_Scroll_2.jpg">Isaiah Scroll 2</a>, scale by Adam Burge, <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" rel="license">CC0 1.0</a>
+    - Photo by [Willian Souza](https://unsplash.com/@willsouzabr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Photo by [Foto Sushi](https://unsplash.com/@fotosushi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Photo by [Christina @ wocintechchat.com](https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Photo by [Clayton](https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Photo by [Christina @ wocintechchat.com](https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Photo by [Clayton](https://unsplash.com/@ibidsy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/headshot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Background image of Isaiah Scroll - Unknown author, [Isaiah Scroll 2](https://commons.wikimedia.org/wiki/File:Isaiah_Scroll_2.jpg), scale by Adam Burge, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
   
   
   
