@@ -159,5 +159,5 @@ The website is a single-page site with a menu that takes the user to different s
 - The sample README page provided by Code Institute provided not only the basic outline for this README file, but also much of the content discussed in this README is based on content discussed in that sample
 
 ## Individuals
-- My Mentor, Adegbenga Adeye - comments, feedback, advice
+- My Mentor, [Adegbenga Adeye](https://github.com/deye9) - comments, feedback, advice
 - My wife, Megan - comments, feedback and edits of website content
