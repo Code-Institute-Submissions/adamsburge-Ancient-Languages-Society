@@ -82,7 +82,10 @@ The website is a single-page site with a menu that takes the user to different s
 
 
 ## Bugs
+### Solved
+- When I originally tested out the signup form, the language interest option only showed up as 'on' in the data catalogue (which is Code Institute's form dump). After investigating the issue, I found that the checkboxes were missing the value attribute which would allow the data to represent the checkbox selected. After changing this, the form worked properly.
 
+### Unsolved
 - One unsolved bug is that the mobile hamburger drop-down menu has to be manually closed. This, however, is due to the fact that I decided not to use Javascript as this project is focused on HTML and CSS. I intentionally tried to find a way to create the mobile menu without using Javascript and this is the one bug. This feature could be fixed in the future if I decide to incorporate Javascript.
 
 ## Validator Testing
